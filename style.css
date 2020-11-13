@@ -29,7 +29,7 @@ body {
 	background-color: #FFFEF2;
 	margin: 1em auto;
 	font-size: 8px;
-	padding: 1em;
+	padding: 5em;
 	text-align: center;
 	font-family: worthington-arcade, serif;
 	font-weight: 400;
@@ -45,21 +45,15 @@ ul {
   margin-right: 0;
   padding-left: 40px;
 
-	<ul style="line-height:180%">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-
 }
 
 h1 {
-	color: #555;
+	color: #623226;
 	font-size: 3em;
 }
 
 p {
-	color: #444;
+	color: #623226;
 	max-width: 30em;
 	width: 100%;
 	text-align: left;
@@ -74,4 +68,19 @@ img.logo {
 	max-width: 40em;
 	max-height: 40em;
 	margin: 2em auto;
+}
+
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+img {align: center}
+</style>
+</head>
+<body>
+
+a {
+  color: #ffa8c9;
 }
