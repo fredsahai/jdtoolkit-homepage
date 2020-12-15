@@ -11,6 +11,9 @@
   padding: 14px 25px;
   text-decoration: none;
   font-size: 17px;
+  font-family:worthington-arcade, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* Change the color of links on hover */
@@ -28,12 +31,12 @@
 body {
 	background-color: #FFFEF2;
 	margin: 2em auto;
-	font-size: 8px;
+	font-size: 12px;
 	padding: 5em;
 	text-align: center;
   font-family: mrs-eaves-xl-serif-narrow, serif;
-font-weight: 400;
-font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul {
@@ -47,9 +50,12 @@ ul {
 
 }
 
-h1 {
+h1.main-hed {
 	color: #623226;
-	font-size: 3em;
+	font-size: 2em;
+  font-family: worthington-arcade, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 p {
@@ -117,6 +123,11 @@ a {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
